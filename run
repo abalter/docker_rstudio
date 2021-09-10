@@ -1,4 +1,4 @@
 #!/bin/bash
 
 docker rm -f rstudio-server
-docker run -d -p 8787:8787 -v /home/balter:/home/balter -e USER=$USER -e USERID=$UID -e GROUPID=$GID --name rstudio-server rstudio-server
+docker run -d -p 8787:8787 -v /home/${USER}:/home/${USER} -e USER=$USER -e USERID=$UID -e GROUPID=$GID --name rstudio-server rstudio-server
