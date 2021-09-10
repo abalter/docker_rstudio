@@ -15,4 +15,6 @@ This way:
 
 Right now, it "works"
 
-To use, run `./build && ./run`, after which, you need only to use `.run`
+To build the container, run `./build`. To run the container, run `./run`. to access the container, run
+
+`gcloud beta compute ssh --zone ${gcp_zone} ${gcp_vm_name} --project ${gcp_project} --tunnel-through-iap -- -L 8787:localhost:8787`
