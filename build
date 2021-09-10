@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t rstudio-server .
+docker build --build-arg USER=$USER --build-arg UID=$UID --build-arg GID=$GROUPS -t rstudio-server .
