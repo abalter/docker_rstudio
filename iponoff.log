@@ -1,0 +1,7 @@
+ERROR: gcloud crashed (ConnectionError): HTTPSConnectionPool(host='compute.googleapis.com', port=443): Max retries exceeded with url: /batch/compute/v1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e43a4d2b0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+
+If you would like to report this issue, please run the following command:
+  gcloud feedback
+
+To check gcloud for common problems, please run the following command:
+  gcloud info --run-diagnostics

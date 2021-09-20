@@ -1,0 +1,72 @@
+
+
+Command killed by keyboard interrupt
+
+ERROR: (gcloud.compute.instances.add-access-config) Could not fetch resource:
+ - Required 'compute.subnetworks.useExternalIp' permission for 'projects/phs-205720/regions/us-east1/subnetworks/psjh-shared'
+
+ERROR: (gcloud.compute.instances.delete-access-config) Could not fetch resource:
+ - Invalid access config name `external-nat` as the access config name in instance is `External NAT`.
+
+ERROR: (gcloud.compute.instances.delete-access-config) Could not fetch resource:
+ - Invalid access config name `external-nat` as the access config name in instance is `External NAT`.
+
+ERROR: (gcloud.compute.instances.add-access-config) Could not fetch resource:
+ - Required 'compute.subnetworks.useExternalIp' permission for 'projects/phs-205720/regions/us-east1/subnetworks/psjh-shared'
+
+ERROR: (gcloud.compute.instances.delete-access-config) Could not fetch resource:
+ - Invalid access config name `external-nat` as the access config name in instance is `External NAT`.
+
+ERROR: (gcloud.compute.instances.delete-access-config) Could not fetch resource:
+ - Invalid access config name `external-nat` as the access config name in instance is `External NAT`.
+
+ERROR: (gcloud.compute.instances.add-access-config) Could not fetch resource:
+ - Required 'compute.subnetworks.useExternalIp' permission for 'projects/phs-205720/regions/us-east1/subnetworks/psjh-shared'
+
+ERROR: (gcloud.compute.instances.add-access-config) Could not fetch resource:
+ - Required 'compute.subnetworks.useExternalIp' permission for 'projects/phs-205720/regions/us-east1/subnetworks/psjh-shared'
+
+ERROR: (gcloud.compute.instances.add-access-config) Could not fetch resource:
+ - Required 'compute.subnetworks.useExternalIp' permission for 'projects/phs-205720/regions/us-east1/subnetworks/psjh-shared'
+
+ERROR: (gcloud.compute.instances.delete-access-config) Could not fetch resource:
+ - Invalid access config name `external-nat` as the access config name in instance is `External NAT`.
+
+ERROR: (gcloud.compute.instances.add-access-config) Could not fetch resource:
+ - Required 'compute.subnetworks.useExternalIp' permission for 'projects/phs-205720/regions/us-east1/subnetworks/psjh-shared'
+
+ERROR: gcloud crashed (ConnectionError): HTTPSConnectionPool(host='compute.googleapis.com', port=443): Max retries exceeded with url: /batch/compute/v1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f28ca2b6860>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+
+If you would like to report this issue, please run the following command:
+  gcloud feedback
+
+To check gcloud for common problems, please run the following command:
+  gcloud info --run-diagnostics
+ERROR: gcloud crashed (ConnectionError): HTTPSConnectionPool(host='compute.googleapis.com', port=443): Max retries exceeded with url: /batch/compute/v1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f80d284c7b8>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+
+If you would like to report this issue, please run the following command:
+  gcloud feedback
+
+To check gcloud for common problems, please run the following command:
+  gcloud info --run-diagnostics
+ERROR: gcloud crashed (ConnectionError): HTTPSConnectionPool(host='compute.googleapis.com', port=443): Max retries exceeded with url: /batch/compute/v1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f130dd9c7f0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+
+If you would like to report this issue, please run the following command:
+  gcloud feedback
+
+To check gcloud for common problems, please run the following command:
+  gcloud info --run-diagnostics
+ERROR: gcloud crashed (ConnectionError): HTTPSConnectionPool(host='compute.googleapis.com', port=443): Max retries exceeded with url: /batch/compute/v1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6bab9b2748>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+
+If you would like to report this issue, please run the following command:
+  gcloud feedback
+
+To check gcloud for common problems, please run the following command:
+  gcloud info --run-diagnostics
+ERROR: gcloud crashed (ConnectionError): HTTPSConnectionPool(host='compute.googleapis.com', port=443): Max retries exceeded with url: /batch/compute/v1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fc94b7cb7f0>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+
+If you would like to report this issue, please run the following command:
+  gcloud feedback
+
+To check gcloud for common problems, please run the following command:
+  gcloud info --run-diagnostics

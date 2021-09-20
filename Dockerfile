@@ -24,5 +24,6 @@ RUN usermod -a -G sudo rstudio
 RUN echo "rsession-which-r=/home/$USER/conda/bin/R" > /etc/rstudio/rserver.conf
 RUN service rstudio-server restart
 
+COPY iponoff.sh /home/balter
 
 
