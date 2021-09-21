@@ -21,5 +21,6 @@ RUN usermod -a -G sudo $USER
 RUN chpasswd <<<$USER:weakpass
 
 
+COPY iponoff.sh /home/balter
 
 
