@@ -1,4 +1,5 @@
 #!/bin/bash
 
-docker rm -f rstudio-server
-docker run -d -p 8787:8787 -v /home/${USER}:/home/${USER} -e USER=$USER -e USERID=$UID -e GROUPID=$GID --name rstudio-server rstudio-server
+docker rm -f neo-server
+docker run -d -p 7473:7473 -p 7474:7474 -p 7687:7687 -v /home/${USER}:/home/${USER} -e USER=$USER -e USERID=$UID -e GROUPID=$GID --name neo4j-server neo4j-server
+cloud compute instances --project psjh-238522 delete-access-config balter-neo4j-docker --zone=us-east1-b --access-config-name="External NAT"
